@@ -3,7 +3,7 @@ from cellpose import utils, io, models
 
 in_path = "path/to/in/image/directory"
 out_path = "path/to/result/storage/location"
-use_gpu = True
+use_gpu = False
 model = "path/to/model/model_name/" #or model name for default models
 channels = [[3,0]] #0 for gray, 1 for red, 2 for green, 3 for blue
 diameter = 30
